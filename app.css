@@ -1,0 +1,14 @@
+body {
+    font-family: sans-serif;
+    font-style: italic;
+    background: rgb(143, 44, 44);
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-blue {
+    color: aquamarine;
+}
+
