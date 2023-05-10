@@ -1,7 +1,7 @@
 body {
     font-family: sans-serif;
-    font-style: italic;
-    background: rgb(143, 44, 44);
+    font-style: normal;
+    background: lightgray;
 }
 
 .text-center {
@@ -9,6 +9,111 @@ body {
 }
 
 .text-blue {
-    color: aquamarine;
+    color: darkblue;
+    font-weight: bolder;
 }
 
+.text-purple {
+    color: purple;
+}
+
+.boxes {
+    display: block;
+    padding: 1em;
+    margin: 10px 3px 30px 5px;
+    width: 30em;
+    border: solid blue;
+    border-radius: 5px;
+}
+
+#box1 {
+    background: yellow;
+}
+
+#box2 {
+    position: relative;
+    background: green;
+}
+
+#box3 {
+    background: orange;
+}
+
+#box4 {
+    background: red;
+}
+h2, p, .readme-wrapper {
+    text-align: center;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    font-style: normal;
+    
+}
+
+a:hover {
+    
+    color: white;
+    font-style: normal;
+    
+}
+
+.image-value {
+    position: absolute;
+    left: 6em;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    background-color: bisque;
+}
+
+h1 {
+    color: darkolivegreen
+}
+
+.original {
+    color: darkorange;
+}
+
+.additional {
+    color: blueviolet;
+}
+
+#rank1 {
+    color: yellowgreen;
+}
+
+#rank2 {
+    color: black;
+}
+
+#rank3 {
+    color: orchid;
+}
+
+#rank4 {
+    color: paleturquoise;
+}
+
+#rank5 {
+    color: orangered;
+}
+
+ul {
+    color: lightcoral;
+}
+
+.star {
+    color: black;
+}
+
+#wars {
+    color: burlywood;
+}
+
+.boxes-bottom {
+    border: 2px solid black;
+
+}
